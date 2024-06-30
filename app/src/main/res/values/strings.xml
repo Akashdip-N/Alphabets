@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Alphabets</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title">TITLE</string>
+    <string name="intro"> Introduction </string>
+    <string name="website"> To get more information tap here </string>
+    <string name="copyright"> © AKASHDIP NEOGI </string>
+    <string name="sound">Press this button to listen to the sound</string>
+</resources>

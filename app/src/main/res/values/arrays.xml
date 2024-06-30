@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="title">
+        <item> A - Apple </item>
+        <item> B - Banana </item>
+        <item> C - Cat </item>
+        <item> D - Dog </item>
+        <item> E - Elephant </item>
+        <item> F - Fish </item>
+        <item> G - Goat </item>
+        <item> H - Horse </item>
+        <item> I - Ice Cream </item>
+        <item> J - Jackal </item>
+        <item> K - Koala</item>
+        <item> L - Lion </item>
+        <item> M - Mango</item>
+        <item> N - Nest </item>
+        <item> O - Orange </item>
+        <item> P - Peafowl </item>
+        <item> Q - Queen </item>
+        <item> R - Rat </item>
+        <item> S - Strawberry </item>
+        <item> T - Tomato </item>
+        <item> U - Umbrella </item>
+        <item> V - Violin </item>
+        <item> W - Watermelon </item>
+        <item> X - Xylophone</item>
+        <item> Y - Yak </item>
+        <item> Z - Zebra </item>
+    </string-array>
+
+    <string-array name="introduction">
+        <item> <!-- Apple -->
+            1. An apple is a sweet, edible fruit produced by an apple tree (Malus domestica).\n
+            2. The fruit matures in late summer or autumn, and cultivars exist in a wide range of sizes.\n
+            3. The skin of ripe apples is generally red, yellow, green, pink, or russetted, though many bi- or tri-colored cultivars may be found
+        </item>
+        <item> <!-- Banana -->
+            1. A banana is an edible fruit. (botanically a berry).\n
+            2. The banana plant is the largest herbaceous flowering plant.\n
+            3. The skin of ripe bananas is generally green, yellow, red, purple, or brown.
+        </item>
+        <item> <!-- Cat-->
+            1. The cat is a domestic species of small carnivorous mammal.\n
+            2. Domestic cats are valued by humans for companionship and their ability to hunt rodents.\n
+            3. Cats can have kittens from spring to late autumn.
+        </item>
+        <item> <!-- Dog-->
+            1. A dog is a carnivore animal. \n
+            2. It is the most widely abundant terrestrial carnivore.\n
+            3. Their lives ranges from 10 to 13 years.
+        </item>
+        <item> <!-- Elephant -->
+            1. Elephants are mammals of the family Elephantidae and the largest existing land animals.\n
+            2. Tusks, which are derived from the incisor teeth, serve both as weapons and as tools for moving objects and digging.\n
+            3. They are considered to be keystone species, due to their impact on their environments.
+        </item>
+        <item> <!-- Fish -->
+            1. Fish are gill-bearing aquatic craniate animals that lack limbs with digits.\n
+            2. The earliest organisms that can be classified as fish were soft-bodied chordates that first appeared during the Cambrian period.\n
+            3. Fish can communicate in their underwater environments through the use of acoustic communication.
+        </item>
+        <item> <!-- Goat -->
+            1. The domestic goat or simply goat is a subspecies of C. aegagrus domesticated from the wild goat of Southwest Asia and Eastern Europe.\n
+            2. The goat is a member of the animal family Bovidae and the subfamily Caprinae, meaning it is closely related to the sheep.\n
+            3. There are over 300 distinct breeds of goat.
+        </item>
+        <item> <!-- Horse -->
+            1. Horse is an odd-toed ungulate mammal belonging to the taxonomic family Equidae.\n
+            2. There are more than 300 breeds of horse in the world today.\n
+            3. Depending on breed, management and environment, the modern domestic horse has a life expectancy of 25 to 30 years.
+        </item>
+        <item> <!-- Ice cream -->
+            1. Ice cream (derived from earlier iced cream or cream ice) is a sweetened frozen food typically eaten as a snack or dessert.\n
+            2. It may be made from dairy milk or cream and is flavoured with a sweetener, either sugar or an alternative, and any spice, such as cocoa or vanilla.\n
+            3. Ice cream is considered a colloidal system.
+        </item>
+        <item> <!-- Jackal-->
+            1. Jackals are medium-sized omnivorous mammals.\n
+            2. Jackals are opportunistic omnivores, predators of small to medium-sized animals and proficient scavengers.
+        </item>
+        <item> <!-- Koala -->
+            1. The koala or, inaccurately, koala bear is an arboreal herbivorous marsupial native to Australia.\n
+            2. They are found in coastal areas of the mainland\'s eastern and southern regions, inhabiting Queensland, New South Wales, Victoria, and South Australia.\n
+            3. The koala is a stocky animal with a large head and vestigial or non-existent tail.
+        </item>
+        <item> <!-- Lion -->
+            1. The lion is a wild animal, usually found in forests. \n
+            2. A lion pride consists of a few adult males, related females and cubs.\n
+            3. Groups of female lions usually hunt together, preying mostly on large ungulates.
+        </item>
+        <item> <!-- Mango -->
+            1. A mango is a juicy stone fruit produced from numerous species of tropical trees.\n
+            2. Mangoes are native to South Asia.\n
+            3. Mango trees grow to 35–40 m (115–131 ft) tall.
+        </item>
+        <item> <!-- Nest -->
+            1. A nest is a structure built by certain animals to hold eggs, offspring, and, occasionally, the animal itself.\n
+            2. They may be composed of organic material such as twigs, grass, and leaves.\n
+            3. Nest building is driven by a biological urge known as the nesting instinct in birds and mammals.
+        </item>
+        <item> <!-- Orange -->
+            1. The orange is the fruit of the citrus species Citrus - sinensis in the family Rutaceae, native to China.\n
+            2. The orange is a hybrid between pomelo (Citrus maxima) and mandarin (Citrus reticulata).\n
+            3. Orange trees are widely grown in tropical and subtropical climates for their sweet fruit.
+        </item>
+        <item> <!-- Peacock -->
+            1. Male peafowl are referred to as peacocks.\n
+            2. Female peafowl as peahens.\n
+            3. Peafowl are omnivores and eat mostly plants, flower petals, seed heads, insects and other arthropods, reptiles, and amphibians.
+        </item>
+        <item> <!-- Queen -->
+            1. Queen is known as the head of a respective country.\n
+            2. She generally rules the whole country.
+        </item>
+        <item> <!-- Rats -->
+            1. Rats are various medium-sized, long-tailed rodents.\n
+            2. Rats are typically distinguished from mice by their size.\n
+            3. Rats have long been considered deadly pests.
+        </item>
+        <item>  <!-- Strawberry -->
+            1. It is a fruit which is red in colour.\n
+            2. For purposes of commercial production, plants are propagated from runners and, in general, distributed as either bare root plants or plugs.\n
+            3. It has lower investment costs, and lower overall maintenance requirements.
+        </item>
+        <item> <!-- Tomato -->
+            1. The tomato is the edible, often red, berry of the plant Solanum lycopersicum, commonly known as a tomato plant.\n
+            2. Tomatoes are a significant source of umami flavor.\n
+            3. Numerous varieties of the tomato plant are widely grown in temperate climates across the world.
+        </item>
+        <item> <!-- Umbrella -->
+            1. An umbrella or parasol is a folding canopy.\n
+            2. It is made by wooden or metal ribs that is usually mounted on a wooden, metal, or plastic pole.\n
+            3. The term umbrella is traditionally used when protecting oneself from rain.
+        </item>
+        <item> <!-- Violin -->
+            1. The violin, sometimes known as a fiddle, is a wooden string instrument in the violin family.\n
+            2. Most violins have a hollow wooden body.\n
+            3. They are most prominent in the Western classical tradition, both in ensembles (from chamber music to orchestras) and as solo instruments.
+        </item>
+        <item> <!-- Watermelon -->
+            1. Watermelon (Citrullus lanatus) is a plant species in the family Cucurbitaceae, a vine-like flowering plant originally domesticated in West Africa.\n
+            2. The sweet, juicy flesh is usually deep red to pink, with many black seeds, although seedless varieties exist.\n
+            3. It is commonly consumed as a juice or as an ingredient in mixed beverages.
+        </item>
+        <item> <!-- Xylophone -->
+            1. The xylophone word is taken from the Greek words.\n
+            2. It is a musical instrument in the percussion family that consists of wooden bars struck by mallets.\n
+            3. The instrument has obscure ancient origins.
+        </item>
+        <item> <!-- Yak -->
+            1. The domestic yak (Bos grunniens) is a long-haired domesticated bovid.\n
+            2. It is generally found throughout the Himalayan region of the Indian subcontinent, the Tibetan Plateau, Northern Myanmar, Yunnan, Sichuan and as far north as Mongolia and Siberia.\n
+            3. It is descended from the wild yak.
+        </item>
+        <item> <!-- Zebra -->
+            1. Zebras (horse family) united by their distinctive black-and-white striped coats.\n
+            2. Their stripes come in different patterns, unique to each individual.\n
+            3. They are generally social animals that live in small harems to large herds.
+        </item>
+    </string-array>
+
+    <string-array name="wikipedia">
+        <item> https://en.wikipedia.org/wiki/Apple </item>
+        <item> https://en.wikipedia.org/wiki/Banana </item>
+        <item> https://en.wikipedia.org/wiki/Cat </item>
+        <item> https://en.wikipedia.org/wiki/Dog </item>
+        <item> https://en.wikipedia.org/wiki/Elephant </item>
+        <item> https://en.wikipedia.org/wiki/Fish </item>
+        <item> https://en.wikipedia.org/wiki/Goat </item>
+        <item> https://en.wikipedia.org/wiki/Horse </item>
+        <item> https://en.wikipedia.org/wiki/Ice_cream </item>
+        <item> https://en.wikipedia.org/wiki/Jackal </item>
+        <item> https://en.wikipedia.org/wiki/Koala </item>
+        <item> https://en.wikipedia.org/wiki/Lion </item>
+        <item> https://en.wikipedia.org/wiki/Mango </item>
+        <item> https://en.wikipedia.org/wiki/Nest </item>
+        <item> https://en.wikipedia.org/wiki/Orange_(fruit) </item>
+        <item> https://en.wikipedia.org/wiki/Peafowl </item>
+        <item> https://dictionary.cambridge.org/dictionary/english/queen </item>
+        <item> https://en.wikipedia.org/wiki/Rat </item>
+        <item> https://en.wikipedia.org/wiki/Strawberry </item>
+        <item> https://en.wikipedia.org/wiki/Tomato </item>
+        <item> https://en.wikipedia.org/wiki/Umbrella </item>
+        <item> https://en.wikipedia.org/wiki/Violin </item>
+        <item> https://en.wikipedia.org/wiki/Watermelon </item>
+        <item> https://en.wikipedia.org/wiki/Xylophone </item>
+        <item> https://en.wikipedia.org/wiki/Domestic_yak </item>
+        <item> https://en.wikipedia.org/wiki/Zebra </item>
+    </string-array>
+</resources>

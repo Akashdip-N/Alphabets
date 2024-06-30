@@ -1,1 +1,1 @@
-# Alphabets
+# This repo has a android application which can be used to teach your kids, also you can get to know a lot too :)
