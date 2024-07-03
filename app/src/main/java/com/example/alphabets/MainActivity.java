@@ -3,6 +3,7 @@ package com.example.alphabets;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.FragmentManager;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.media.MediaPlayer;
 import android.net.Uri;
@@ -34,9 +35,8 @@ public class MainActivity extends AppCompatActivity implements listFrag.Itemsele
     ArrayList<Integer> songlist = new ArrayList<>();
     MediaPlayer mediaPlayer;
     AdView ad;
-    AdRequest adRequest= new AdRequest.Builder()
-            .build();
 
+    @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity implements listFrag.Itemsele
         image = findViewById(R.id.image);
         title = findViewById(R.id.title);
         sound = findViewById(R.id.sound);
-        ad = findViewById(R.id.ad);
+
 
         Field[] fields=R.raw.class.getFields();
         for (Field field : fields) {
@@ -99,24 +99,22 @@ public class MainActivity extends AppCompatActivity implements listFrag.Itemsele
         img.add(R.drawable.zebra);
 
         //phone is in portrait mode
-        if (findViewById(R.id.layout_portrait) != null)
-        {
+        if (findViewById(R.id.layout_portrait) != null) {
             FragmentManager manager = this.getSupportFragmentManager();
 
             manager.beginTransaction()
-                    .hide(manager.findFragmentById(R.id.detailsFrag))
-                    .show(manager.findFragmentById(R.id.listFrag))
+                    .hide(Objects.requireNonNull(manager.findFragmentById(R.id.detailsFrag)))
+                    .show(Objects.requireNonNull(manager.findFragmentById(R.id.listFrag)))
                     .commit();
         }
 
         //phone is in landscape mode
-        if (findViewById(R.id.layout_land) != null)
-        {
+        if (findViewById(R.id.layout_land) != null){
             FragmentManager manager = this.getSupportFragmentManager();
 
             manager.beginTransaction()
-                    .show(manager.findFragmentById(R.id.detailsFrag))
-                    .show(manager.findFragmentById(R.id.listFrag))
+                    .show(Objects.requireNonNull(manager.findFragmentById(R.id.detailsFrag)))
+                    .show(Objects.requireNonNull(manager.findFragmentById(R.id.listFrag)))
                     .commit();
         }
     }
@@ -138,29 +136,6 @@ public class MainActivity extends AppCompatActivity implements listFrag.Itemsele
             public void onClick(View v) {
                 Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(wiki[index]));
                 startActivity(intent);
-            }
-        });
-        ad.loadAd(adRequest);
-        ad.setAdListener(new AdListener(){
-            @Override
-            public void onAdClosed() {
-                super.onAdClosed();
-                Toast.makeText(MainActivity.this, " Ad closed!!",Toast.LENGTH_SHORT).show();
-            }
-            @Override
-            public void onAdFailedToLoad(int i) {
-                super.onAdFailedToLoad(i);
-                Toast.makeText(MainActivity.this, "Ad couldn't be loaded.",Toast.LENGTH_SHORT).show();
-            }
-            @Override
-            public void onAdLoaded() {
-                super.onAdLoaded();
-                Toast.makeText(MainActivity.this," Ad loaded!!",Toast.LENGTH_SHORT ).show();
-            }
-            @Override
-            public void onAdClicked() {
-                super.onAdClicked();
-                Toast.makeText(MainActivity.this," Ad clicked!!",Toast.LENGTH_SHORT ).show();
             }
         });
 
