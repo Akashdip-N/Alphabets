@@ -66,16 +66,4 @@
             tools:ignore="ButtonStyle" />
 
     </LinearLayout>
-
-    <com.google.android.gms.ads.AdView
-        android:id="@+id/ad"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="50sp"
-        android:layout_marginTop="10sp"
-        app:adSize="BANNER"
-        app:adUnitId="ca-app-pub-3940256099942544/6300978111">
-
-    </com.google.android.gms.ads.AdView>
-
 </LinearLayout>
